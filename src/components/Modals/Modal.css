@@ -1,0 +1,145 @@
+/* GENERAL STYLE */
+.modal-container  {
+    width: 473px;
+    height: 244px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+.modal-container  .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.modal-container  .modal-body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-align: center;
+}
+.modal-container  .modal-footer {
+    flex: 20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-container  .modal-footer button {
+    width: 150px;
+    height: 45px;
+    margin: 15px;
+    border: none;
+    background: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* GENERAL STYLE */
+
+/* DELETE MODAL */
+.delete-btn,.edit-btn {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    background-color:crimson;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.delete-btn:hover,.edit-btn:hover{
+    opacity: 0.8;
+
+}
+
+.modalBackground {
+    
+    width: 100%;
+    height: 100%;
+    background-color: rgb(200 200 200 / 53%);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    animation-name: left;
+    animation-duration: 1s;
+}
+
+
+.titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+}
+.titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    background-color:  crimson;;
+    padding: 1px 8px;
+    border-radius: 50%;
+    color: white;
+}
+
+#cancelBtn {
+    background-color: crimson;
+}
+@keyframes left {
+    0% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* DELETE MODAL */
+
+/* EDIT MODAL */
+
+.edit-input {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    width: 76%;
+    margin-left: 50px;
+    margin-top: 17px;
+    margin-bottom: 6px;
+}
+.edit-input input {
+    height: 39px;
+    padding: 3px;
+}
+.edit-container {
+    width: 473px;
+    height: 310px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+
+}
+.edit-input input:focus {
+    outline: none;
+    border:1px solid rgb(65, 64, 64);
+    box-shadow: 0 0 10px #719ECE;
+}
+.edit-btn {
+    background-color:#6f6f6f;
+}
+
+/* EDIT MODAL */

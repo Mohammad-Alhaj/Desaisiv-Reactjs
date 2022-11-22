@@ -1,0 +1,86 @@
+.table-container {
+width: 900px;
+margin: auto;
+padding: 20px;
+line-height: 1.6;
+color: rgb(21, 21, 21);
+font-size: 15px;
+}
+.table-container h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* SEARCH BAR */
+.table-container .search-section{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.search {
+    height: 40px;
+    width: 200px;
+    border-radius: 4px;
+    padding: 3px;
+    border: 1px solid #626262;
+}
+.search:focus {
+    outline: none;
+    border:1px solid rgb(65, 64, 64);
+    box-shadow: 0 0 10px #719ECE;
+}
+/* SEARCH BAR */
+
+table {
+    display: table;
+    width: 100%;
+}
+
+tr {
+    padding-bottom: 10px;
+    display: table-row;
+}
+td {
+    padding: 10px 10px 0;
+    text-align: left;
+    border: 1px solid #28333f;
+}
+
+thead th {
+    background-color: #202932;
+    color: #fff;
+    border: 1px solid #202932;
+    text-align: center;
+}
+.button {
+    line-height: 1;
+    display: inline-block;
+    font-size: 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 8px;
+    background-color: #4b908f;
+
+}
+.select {
+    padding: 10px;
+    display: flex;
+    gap: 26px;
+    justify-content: center;
+  }
+
+td, th {
+    display: table-cell;
+    padding: 10px;
+  }
+
+  tbody {
+    display: table-row-group;
+  }
+
+
+
+
+
